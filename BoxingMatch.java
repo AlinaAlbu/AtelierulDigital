@@ -13,7 +13,6 @@ public class BoxingMatch {
     public String fight(){
         String winner = f2.getName();
 
-
         while (f1.getHealth()>0 && f2.getHealth()>0) {
             System.out.println(f1.getName() +".health=" + f1.getHealth());
             System.out.println(f2.getName() +".health=" + f2.getHealth());
